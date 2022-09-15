@@ -10,7 +10,31 @@
     <title>Weather App</title>
 </head>
 <body>
+    <div>
+        <section class="weather-summary">
+            <h1 class="temperature"></h1>
+            <div>
+                <span class="location">${location}</span>
+                <span class="country">${country}</span>
+            </div>
+            <div>
+                <span id="icon">${icon}</span>
+                <span class="condition">${condition}</span>
+            </div>
+        </section>
     
+        <section class="weather-details">
+            <input class="search-bar" type="text" placeholder="Search">
+            <h3>Weather Details</h3>
+            <ul>
+                <li class="high"></li>
+                <li class="low"></li>     
+                <li class="humidity"></li>
+                <li class="wind"></li>
+                <li class="rain"></li>
+            </ul>
+        </section>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
