@@ -18,7 +18,8 @@ async function getWeatherData(url) {
     const humidity = data.main.humidity
     const rain = getRain(data.rain) 
     const iconCode = data.weather[0].icon
-    const [condition, folderPath] = weatherIdToIcon(weatherId)
+    let [condition, folderPath] = weatherIdToIcon(weatherId)
+    folderPath = "rain/"
     const imgURL = getRandomImg(folderPath)
     // const tempFeel = data.main.feels_like
     // const date = new Date(data.dt * 1000)
