@@ -23,7 +23,7 @@ body {
     margin: 0;
 }
 
-/* Middle box */
+/* Weather Info */
 body > div {
     display: flex;
     margin: 100px;
@@ -75,14 +75,15 @@ body > div {
     align-items: center;
 }
 
-.weather-details input {
-    background: rgba(255, 255, 255, 0.055);
+.weather-details div input {
+    background: rgb(50, 50, 50);
     border: none;
     border-radius: 20px;
-    padding: 2px 10px;
-    margin: 20px;
+    padding: 4px 10px;
+    margin: 20px 5px;
     width: 100%;
 }
+
 
 .weather-details ul {
     list-style: none;
@@ -91,11 +92,27 @@ body > div {
     font-weight: 300;
 }
 
-.weather-details h3 {
+.weather-details ul li {
+    margin: 5px 0;
+}
+
+.weather-details h2 {
     margin-top: 20px;
 }
 
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-icon {
+    background:rgb(50, 50, 50);
+    border-radius: 100%;
+    border: none;
+    height: 26px;
+    width: 26px;
+}
+
 #icon {
-    font-size: 30px;
-    padding: 0 10px;
+    margin: -26px -20px;
 }
