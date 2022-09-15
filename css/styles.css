@@ -36,8 +36,11 @@ body > div {
     margin: 100px;
     padding: 20px;
     align-items: center;
-    background: rgba(2, 2, 2, 0.85);
+    background: rgba(2, 2, 2, 0.3);
+    backdrop-filter: blur(10px);
     border-radius: 50px;
+    box-shadow: 0 0 10px 5px #1915154e;
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 /* Top weather section */
@@ -81,12 +84,21 @@ body > div {
 }
 
 .weather-details div input {
-    background: rgb(50, 50, 50);
+    background: rgba(25, 25, 25, 0.2);
     border: none;
     border-radius: 20px;
     padding: 4px 10px;
     margin: 20px 5px;
     width: 100%;
+    color: white;
+}
+
+.weather-details div input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.weather-details div input:focus {
+    outline: none;
 }
 
 .weather-details ul {
@@ -110,11 +122,15 @@ body > div {
 }
 
 .search-icon {
-    background:rgb(50, 50, 50);
+    background:rgba(25, 25, 25, 0.2);
     border-radius: 100%;
     border: none;
     height: 26px;
     width: 26px;
+}
+
+.darken {
+    filter: brightness(.75);
 }
 
 #icon {
@@ -162,19 +178,9 @@ body > div {
         display: none;
     }
     .weather-details div input {
-        background: rgb(50, 50, 50);
-        border: none;
-        border-radius: 20px;
         padding: .3rem .8rem;
         margin: .5rem .2rem;
         width: 100%;
-    }
-    .search-icon {
-        background:rgb(50, 50, 50);
-        border-radius: 100%;
-        border: none;
-        height: 2.6rem;
-        width: 2.6rem;
     }
     .weather-details h2 {
         visibility: hidden;
