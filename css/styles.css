@@ -14,9 +14,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    background: url("../images/clear-night/adrian-pelletier-HWXSmUoP66E-unsplash.jpg");
+    display: flex;
+    justify-content: center;
+    /* background: url("/images/clear-night/benjamin-voros-phIFdC6lA4E-unsplash.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
 }
 
 /* Middle box */
