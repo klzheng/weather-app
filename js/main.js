@@ -50,7 +50,7 @@ function updatePage(temperature, location, country, iconCode, condition, high, l
     document.querySelector(".rain").innerHTML = `<i class="fa-solid fa-umbrella"></i> Rain: ${rain} in`
     document.querySelector("body").style.background = `url(${img})`
     document.querySelector("body").style["background-size"] = "cover"
-    setTimeout(() => document.querySelector(".cover").classList.remove("load-effect"), 1000)
+    setTimeout(() => document.querySelector(".cover").classList.remove("load-effect"), 1250)
 }
 
 
