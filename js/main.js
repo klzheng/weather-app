@@ -3,7 +3,7 @@ const API_KEY = "8919f40423d85c50f7b9178feaeee36c"
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather" 
 
 
-// gets weather data from url
+// takes in city name, gets weather data from api, and calls updatePage() fn
 async function getWeatherData(url) {
     const res = await fetch(url)
     const data = await res.json()
@@ -24,7 +24,7 @@ async function getWeatherData(url) {
 }
 
 
-// gets weather data depending on search term
+// checks search input and sends input data to getWeatherData() fn
 function searchWeather(city) {
     document.querySelector(".search-bar").value = ""
     document.querySelector(".search-bar").addEventListener("keydown", submitSearch)
@@ -35,8 +35,9 @@ function searchWeather(city) {
 }
 
 
-// updates HTML content with API data
+// updates HTML content with API data and adds page load effect
 function updatePage(temperature, location, country, iconCode, condition, high, low, humidity, wind, rain, img) {
+    document.querySelector(".cover").classList.add("load-effect")
     document.querySelector(".temperature").textContent = `${temperature}°` 
     document.querySelector(".location").textContent = `${location}`
     document.querySelector(".country").textContent = `${country}`
@@ -49,10 +50,11 @@ function updatePage(temperature, location, country, iconCode, condition, high, l
     document.querySelector(".rain").innerHTML = `<i class="fa-solid fa-umbrella"></i> Rain: ${rain} in`
     document.querySelector("body").style.background = `url(${img})`
     document.querySelector("body").style["background-size"] = "cover"
+    setTimeout(() => document.querySelector(".cover").classList.remove("load-effect"), 1000)
 }
 
 
-// returns condition depending on weather code/id
+// returns weather condition depending on weather code/id
 function weatherIdToIcon(id, timeDiff) {
     if (id < 300) {
         return ["Thunderstorm", "Raining"]
@@ -74,7 +76,7 @@ function weatherIdToIcon(id, timeDiff) {
 }
 
 
-// creates list of images and calls getRandomImg fn
+// creates list of image paths and calls getRandomImg() fn
 function createImgList(num, weatherPath) {
     let imgList = []
     for (let i = 2; i < num+2; i++) {
@@ -84,7 +86,7 @@ function createImgList(num, weatherPath) {
 }
 
 
-// grabs random relevant img depending on weather condition 
+// grabs random img depending on weather condition 
 function getRandomImg(path, imageList) {
     let index = 0
     const root = "./images/"
@@ -142,5 +144,5 @@ function tempToImperial(temp) {
 }
 
 
-// default weather data
-searchWeather("New York")
+// set default weather data
+setTimeout(() => searchWeather("New York"), 50)

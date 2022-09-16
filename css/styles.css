@@ -3,7 +3,7 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    background-color: rgb(49, 63, 68);
 }
 
 * {
@@ -22,9 +22,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    /* background: url("/images/clear-night/benjamin-voros-phIFdC6lA4E-unsplash.jpg"); */
-    background-size: cover;
-    background-repeat: no-repeat;
     margin: 0;
     font-size: 1.6rem;
 }
@@ -33,37 +30,46 @@ body {
 body > div {
     display: flex;
     flex-direction: column;
-    margin: 100px;
-    padding: 20px;
+    margin: 10rem;
+    padding: 2rem;
     align-items: center;
     background: rgba(2, 2, 2, 0.3);
-    backdrop-filter: blur(10px);
-    border-radius: 50px;
+    backdrop-filter: blur(1rem);
+    border-radius: 5rem;
     box-shadow: 0 0 10px 5px #1915154e;
     border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-/* Top weather section */
+/* Top half of weather section */
 .weather-summary {
     padding: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    gap: 30px;
+    gap: 3rem;
     margin: 2rem;
 }
 
+/* Top temperature reading */
 .weather-summary h1 {
     font-size: 5rem;
 }
 
+/* Location and weather icon */
 .weather-summary div {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
+/* weather icon */
+#icon {
+    margin: -2.6rem -2.0rem;
+    width: 10rem;
+}
+
+/* City name */
 .weather-summary div span:first-child {
     padding: 0;
     margin: 0;
@@ -71,19 +77,27 @@ body > div {
     margin: -5px 0;
 }
 
+/* country and weather condition */
 .weather-summary div span:nth-child(2) {
     font-size: 1.2rem;
     font-weight: 200;
 }
 
-
+/* Bottom half of weather section */
 .weather-details {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.weather-details div input {
+/* Search bar div */
+.search {
+    display: flex;
+    align-items: center;
+}
+
+/* search bar */
+.search-bar {
     background: rgba(25, 25, 25, 0.2);
     border: none;
     border-radius: 20px;
@@ -91,17 +105,33 @@ body > div {
     margin: 20px 5px;
     width: 100%;
     color: white;
-    
 }
 
-.weather-details div input::placeholder {
+/* search bar text */
+.search-bar::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
 
+/* search icon */
+.search-icon {
+    background:rgba(25, 25, 25, 0.2);
+    border-radius: 100%;
+    border: none;
+    height: 2.6rem;
+    width: 2.6rem;
+}
+
+/* darken search icon */
+.darken {
+    filter: brightness(.75);
+}
+
+/* remove outline when search bar is clicked */
 .weather-details div input:focus {
     outline: none;
 }
 
+/* weather details */
 .weather-details ul {
     list-style: none;
     text-align: center;
@@ -109,6 +139,7 @@ body > div {
     font-weight: 300;
 }
 
+/* weather detail list items */
 .weather-details ul li {
     margin: .5rem 0;
 }
@@ -117,32 +148,31 @@ body > div {
     margin-top: 2rem;
 }
 
-.search {
-    display: flex;
-    align-items: center;
+/* Page load effect */
+.load-effect {
+    background: rgb(49, 63, 68);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    animation: pageLoad 1s cubic-bezier(0.64, 0, 0.78, 0);
+    animation-fill-mode: forwards;
+    z-index: 1;
+    opacity: 0;
 }
 
-.search-icon {
-    background:rgba(25, 25, 25, 0.2);
-    border-radius: 100%;
-    border: none;
-    height: 26px;
-    width: 26px;
+@keyframes pageLoad {
+    0% {
+        opacity: 1;
+    } 95% {
+        z-index: 1;
+    }
+    100% {
+        opacity: 0;
+        z-index: -1;
+    }
 }
 
-.darken {
-    filter: brightness(.75);
-}
-
-#icon {
-    margin: -2.6rem -2.0rem;
-    width: 10rem;
-}
-
-
-
-
-
+/* Mobile layout */
 @media (max-width: 500px) {
     body > div {
         padding: 1rem;
@@ -153,11 +183,10 @@ body > div {
         grid-template-rows: repeat(3, 1fr);
         gap: 0;
         margin: 1rem;
-        min-width: 200px;
+        min-width: 20rem;
     }
     .weather-summary h1 {
         margin: 0 auto;
-        font-size: rem;
     }
     .weather-summary div:nth-child(3) {
         display: flex;
