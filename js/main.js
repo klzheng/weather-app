@@ -1,14 +1,12 @@
+
 const API_KEY = "8919f40423d85c50f7b9178feaeee36c"
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather" 
-let query = "?zip=11201,us&appid="
-let API_URL = BASE_URL + query + API_KEY
 
 
 // gets weather data from url
 async function getWeatherData(url) {
     const res = await fetch(url)
     const data = await res.json()
-    
     const weatherId = data.weather[0].id
     const location = data.name
     const country = getCountry(data.sys.country)
@@ -18,18 +16,27 @@ async function getWeatherData(url) {
     const humidity = data.main.humidity
     const rain = getRain(data.rain) 
     const iconCode = data.weather[0].icon
-    let [condition, folderPath] = weatherIdToIcon(weatherId)
-    const imgURL = getRandomImg(folderPath)
-    // const tempFeel = data.main.feels_like
-    // const date = new Date(data.dt * 1000)
-    console.log(data)
+    const timeDiff = data.dt - data.sys.sunset
+    let condition = weatherIdToIcon(weatherId, timeDiff)
+    const imgURL = createImgList(84, condition[1])
 
-    updatePage(temperature, location, country, icon, iconCode, condition, tempRange[0], tempRange[1], humidity, windSpeed, rain, imgURL)
+    updatePage(temperature, location, country, iconCode, condition[0], tempRange[0], tempRange[1], humidity, windSpeed, rain, imgURL)
+}
+
+
+// gets weather data depending on search term
+function searchWeather(city) {
+    document.querySelector(".search-bar").value = ""
+    document.querySelector(".search-bar").addEventListener("keydown", submitSearch)
+    document.querySelector(".search-icon").addEventListener("click", submitSearch)
+    query = "?q=" + city + "&appid="
+    API_URL = BASE_URL + query + API_KEY
+    getWeatherData(API_URL)
 }
 
 
 // updates HTML content with API data
-function updatePage(temperature, location, country, icon, iconCode, condition, high, low, humidity, wind, rain, img) {
+function updatePage(temperature, location, country, iconCode, condition, high, low, humidity, wind, rain, img) {
     document.querySelector(".temperature").textContent = `${temperature}°` 
     document.querySelector(".location").textContent = `${location}`
     document.querySelector(".country").textContent = `${country}`
@@ -42,6 +49,75 @@ function updatePage(temperature, location, country, icon, iconCode, condition, h
     document.querySelector(".rain").innerHTML = `<i class="fa-solid fa-umbrella"></i> Rain: ${rain} in`
     document.querySelector("body").style.background = `url(${img})`
     document.querySelector("body").style["background-size"] = "cover"
+}
+
+
+// returns condition depending on weather code/id
+function weatherIdToIcon(id, timeDiff) {
+    if (id < 300) {
+        return ["Thunderstorm", "Raining"]
+    } else if (id < 400) {
+        return ["Drizzling", "Raining"]
+    } else if (id < 600) {
+        return ["Raining", "Raining"]
+    } else if (id < 700) {
+        return ["Snowing", "Snowing"]
+    } else if (id < 800) {
+        return ["Fog", "Fog"]
+    } else if (id < 802 && timeDiff > 0) {
+        return ["Clear", "Clear Night"]
+    } else if (id < 802 && timeDiff < 0) {
+        return ["Clear", "Clear"] 
+    } else {
+        return ["Cloudy", "Cloudy"]
+    }
+}
+
+
+// creates list of images and calls getRandomImg fn
+function createImgList(num, weatherPath) {
+    let imgList = []
+    for (let i = 2; i < num+2; i++) {
+        imgList.push(`bg${i}.jpg`)
+    }
+    return getRandomImg(weatherPath, imgList)
+}
+
+
+// grabs random relevant img depending on weather condition 
+function getRandomImg(path, imageList) {
+    let index = 0
+    const root = "./images/"
+    
+    switch (path) {
+        case "Cloudy": 
+            index = Math.floor((Math.random() * 14) + 45);
+            break
+        case "Raining":
+            index = Math.floor((Math.random() * 14) + 59);
+            break
+        case "Snowing":
+            index = Math.floor((Math.random() * 11) + 73);
+            break
+        case "Fog":
+            index = Math.floor(Math.random() * 9);
+            break
+        case "Clear":
+            index = Math.floor((Math.random() * 14) + 9);
+            break
+        case "Clear Night":
+            index = Math.floor((Math.random() * 22) + 23);
+            break
+    }
+    return `${root + imageList[index]}`
+}
+
+
+// performs search if enter key is pressed or search button is clicked
+function submitSearch(submit) {
+    if (submit.key === "Enter" || submit.type === "click") {
+        searchWeather(document.querySelector(".search-bar").value)
+    }
 }
 
 
@@ -66,72 +142,5 @@ function tempToImperial(temp) {
 }
 
 
-// returns [icon, condition, img path] depending on weather code/id
-function weatherIdToIcon(id) {
-    if (id < 300) {
-        return ["Thunderstorm", "rain/"]
-    } else if (id < 400) {
-        return ["Drizzling", "rain/"]
-    } else if (id < 600) {
-        return ["Raining", "rain/"]
-    } else if (id < 700) {
-        return ["Snowing", "snow/"]
-    } else if (id < 800) {
-        return ["Fog", "atmosphere/"]
-    } else if (id < 802) {
-        return ["Clear", "clear-day/"]
-    } else {
-        return ["Cloudy", "cloudy/"]
-    }
-}
-
-
-// grabs random relevant img depending on weather condition 
-function getRandomImg(path) {
-    let index = 0
-    const root = "./images/"
-    const images = ["bg46.jpg", "bg63.jpg", "bg57.jpg", "bg69.jpg", "background3.jpg", "bg11.jpg", "bg48.jpg"]
-    
-    switch (path) {
-        case "cloudy/": 
-            index = 0;
-            break
-        case "rain/":
-            index = 1;
-            break
-        case "snow/":
-            index = 3;
-            break
-        case "atmosphere/":
-            index = 4;
-            break
-        case "clear-day/":
-            index = 5;
-            break
-    }
-    return `${root + path + images[index]}`
-}
-
-
-// performs search if enter key is pressed or search button is clicked
-function submitSearch(submit) {
-    if (submit.key === "Enter" || submit.type === "click") {
-        searchWeather(document.querySelector(".search-bar").value)
-    }
-    console.log(submit)
-}
-
-
-// gets weather data depending on search term
-function searchWeather(city) {
-    document.querySelector(".search-bar").value = ""
-    document.querySelector(".search-bar").addEventListener("keydown", submitSearch)
-    document.querySelector(".search-icon").addEventListener("click", submitSearch)
-    query = "?q=" + city + "&appid="
-    API_URL = BASE_URL + query + API_KEY
-    getWeatherData(API_URL)
-}
-
-
 // default weather data
-searchWeather("Brooklyn")
+searchWeather("New York")

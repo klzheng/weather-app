@@ -91,6 +91,7 @@ body > div {
     margin: 20px 5px;
     width: 100%;
     color: white;
+    
 }
 
 .weather-details div input::placeholder {
