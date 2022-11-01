@@ -1,0 +1,26 @@
+*::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #00000021;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c0c0c060;
+  border-radius: 10px;
+  border: 0px solid #ffffff;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  html {
+    font-family: Poppins, Montserrat, sans-serif;
+  }
+}
