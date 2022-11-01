@@ -7,113 +7,118 @@ import Forecast from "./Forecast";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
-import weatherData from "../data.json"
+// import weatherData from "../data.json"
+import Geocode from "react-geocode";
 
 export default function Home() {
 
+    const [hourlyData, setHourlyData] = useState({})
+    const [dailyData, setDailyData] = useState({})
+    const [currentData, setCurrentData] = useState({})
+    const [address, setAddress] = useState([])
+    const defaultLatLong = [40.712775, -74.005973]
+    const [latLong, setLatLong] = useState(defaultLatLong)
 
-// set the Timelines GET endpoint as the target URL
-const getTimelineURL = "https://api.tomorrow.io/v4/timelines";
+    const getTimelineURL = "https://api.tomorrow.io/v4/timelines";
+    const apikey = process.env.REACT_APP_TOMORROW_API_KEY;
+    const fields = [
+        "precipitationIntensity",
+        "precipitationProbability",
+        "windSpeed",
+        "temperature",
+        "temperatureMin",
+        "temperatureMax",
+        "temperatureApparent",
+        "humidity",
+        "cloudCover",
+        "uvIndex",
+        "weatherCode",
+    ];
+    const units = "imperial";
+    const location = latLong
+    const timesteps = ["current", "1h", "1d"];
+    const now = moment.utc();
+    const startTime = moment.utc(now).add(0, "minutes").toISOString();
+    const endTime = moment.utc(now).add(7, "days").toISOString();
+    // const timezone = "America/New_York";
+    const getTimelineParameters = queryString.stringify({
+        apikey,
+        location,
+        fields,
+        units,
+        timesteps,
+        startTime,
+        endTime,
+    }, { arrayFormat: "comma" });
 
-// get your key from app.tomorrow.io/development/keys
-const apikey = process.env.REACT_APP_TOMORROW_API_KEY;
-
-// pick the location, as a latlong pair
-let location = [40.758, -73.9855];
-
-// list the fields
-const fields = [
-  "precipitationIntensity",
-  "precipitationProbability",
-  "windSpeed",
-  "temperature",
-  "temperatureMin",
-  "temperatureMax",
-  "temperatureApparent",
-  "humidity",
-  "cloudCover",
-  "uvIndex",
-  "weatherCode",
-];
-
-// choose the unit system, either metric or imperial
-const units = "imperial";
-
-// set the timesteps, like "current", "1h" and "1d"
-const timesteps = ["current","1h", "1d"];
-
-// configure the time frame up to 6 hours back and 15 days out
-const now = moment.utc();
-const startTime = moment.utc(now).add(0, "minutes").toISOString();
-const endTime = moment.utc(now).add(7, "days").toISOString();
-
-// specify the timezone, using standard IANA timezone format
-const timezone = "America/New_York";
-
-// request the timelines with all the query string parameters as options
-const getTimelineParameters =  queryString.stringify({
-    apikey,
-    location,
-    fields,
-    units,
-    timesteps,
-    startTime,
-    endTime,
-    timezone,
-}, {arrayFormat: "comma"});
-
-const getWeatherData = async () => {
-    try {
-        const response = await fetch(getTimelineURL + "?" + getTimelineParameters, {method: "GET", compress: true})
-        const data = await response.json()
-        console.log(data)
-        setCurrentData(data.timelines[2].intervals)
-        setHourlyData(data.timelines[1].intervals.slice(0,24))
-        setDailyData(data.timelines[0].intervals)
-    } catch (err) {
-        console.log(err)
+    const getWeatherData = async () => {
+        
+        try {            
+            const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
+            const weatherData = await response.json()
+            console.log(weatherData)
+            setCurrentData(weatherData.data.timelines[2].intervals)
+            setHourlyData(weatherData.data.timelines[1].intervals.slice(0, 24))
+            setDailyData(weatherData.data.timelines[0].intervals)
+        } catch (err) {
+            console.log(err)
+        }
     }
-}
-// getWeatherData()
+    
 
-const [hourlyData, setHourlyData] = useState({}) 
-const [dailyData, setDailyData] = useState({}) 
-const [currentData, setCurrentData] = useState({})
+    Geocode.setApiKey(process.env.REACT_APP_GMAPS_GEOCODING_API_KEY);
+    const getLatLong = async (location) => {
+        try {
+            const res = await Geocode.fromAddress(location)
+            const address = await res.results[0].formatted_address
+            const { lat, lng } = await res.results[0].geometry.location
+            setAddress(address.replace(/[0-9]/g, '').split(","))
+            setLatLong([lat,lng])
+        } catch (err) {
+            console.log(err)
+        }
+    }
 
 
-useEffect(() => {
-    setCurrentData(weatherData.data.timelines[2].intervals)
-    setHourlyData(weatherData.data.timelines[1].intervals.slice(0,24))
-    setDailyData(weatherData.data.timelines[0].intervals)
-},[])
+    useEffect(() => {
+        getLatLong(latLong) // eslint-disable-next-line
+    },[]) 
 
+
+    useEffect(() => {
+        getWeatherData() // eslint-disable-next-line
+    }, [latLong]) 
+
+    
 
     return (
         <Background>
             <Container>
-                
-                <Header 
-                    data={currentData}/>
 
-                <SearchBar />
+                <Header
+                    data={currentData}
+                    address={address} />
 
-                <Forecast 
+                <SearchBar
+                    getLatLong={getLatLong} />
+
+                <Forecast
                     timeFrame={"HOURLY"}
                     data={hourlyData}
                     time={true}
                     day={false}
                     date={false}
                     temp={true}
-                    tempRange={false} /> 
+                    tempRange={false} />
 
                 <Forecast
                     timeFrame={"DAILY"}
-                    data={dailyData}                     
+                    data={dailyData}
                     time={false}
                     day={true}
                     date={true}
                     temp={false}
-                    tempRange={true} /> 
+                    tempRange={true} />
 
             </Container>
         </Background>
