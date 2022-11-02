@@ -22,10 +22,12 @@ import bgNight2 from "../assets/bg-night-2.mp4"
 export default function Background({ children, data }) {
 
     const [bg, setBg] = useState("")
+    const [loading, setLoading] = useState(false)
     const hour = moment(moment()).local().format("HH")
     const nightTime = (hour >= 18 || hour <= 4)
 
     const getBackgroundImg = useCallback((weatherCode) => {
+        setLoading(true)
         if ((weatherCode === 1101 || weatherCode === 1001) && nightTime) {
             setBg(bgNight2)
         } else if (weatherCode === 1101) {
@@ -65,6 +67,9 @@ export default function Background({ children, data }) {
         } else {
             setBg(bgNight)
         }
+        setTimeout(() => {
+            setLoading(false)
+        }, 1000)
     }, [nightTime])
 
     useEffect(() => {
@@ -74,10 +79,32 @@ export default function Background({ children, data }) {
     return (
         <>
             {Object.keys(data).length !== 0 &&
-                <div className={" inset-0 bg-cover text-white overflow-auto bg-gradient-to-b from-gray-600 to-gray-900 transition-all"}>
-                    <video src={bg} autoPlay loop muted className="fixed inset-0 object-cover text-white -z-10 min-h-full min-w-full" />
-                    {children}
-                </div>
+                <>
+                    {/* Background */}
+                    <div 
+                        className={"fixed inset-0 bg-fill w-100vw h-100vh text-white overflow-y-auto overflow-x-hidden bg-gradient-to-b from-gray-600 to-gray-900 transition-all "}
+                    >
+                        {/* Container (appears when loading) */}
+                        <div 
+                            className={"flex flex-col items-center 2xs:w-76 xs:w-112 sm:w-128  bg-black bg-opacity-30 rounded-3xl backdrop-blur-md shadow-dark border border-slate-900 border-opacity-5 py-5 my-5 transition-all 2xs:mx-auto  2xs:h-216 sm:h-180 " + (loading ? " opacity-100 animate-pulse " : " hidden ")}
+                        >
+                        </div>
+                        
+                        {/* Content */}
+                        <div 
+                            className={" transition-all  " + (loading ? " opacity-0 hidden -z-20 " : " opacity-100 ")}
+                        >
+                            <video 
+                                src={bg} 
+                                autoPlay 
+                                loop muted 
+                                className="fixed inset-0 object-cover text-white -z-10 min-h-full min-w-full transition-all" 
+                            />
+                            {children}
+                        </div>
+                    </div>
+
+                </>
             }
         </>
     )
