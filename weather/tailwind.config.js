@@ -1,12 +1,20 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
     content: [
         "./src/**/*.{js,jsx,ts,tsx}",
     ],
     theme: {
+        screens: {
+            '2xs': '320px',
+            'xs': '480px',
+            "3xl": "1920px",
+            ...defaultTheme.screens,
+        },
         extend: {
             backgroundImage: {
-                'background': `url('../public/bg78.jpg')`,
+                'background': `url('./assets/bg-clear.mp4')`,
             },
             boxShadow: {
                 "dark": "0 0 10px 5px #1915154e"
@@ -22,9 +30,17 @@ module.exports = {
                 25: '.25',
                 30: '.30',
                 40: '.40',
+                60: '.60',
+                70: '.70',
             },
             width: {
                 68: '17rem',
+                72: '18rem',
+                76: '19rem',
+                80: '20rem',
+                84: '21rem',
+                88: '22rem',
+                92: '23rem',
                 104: '26rem',
                 112: '28rem',
                 120: '30rem',
@@ -40,6 +56,8 @@ module.exports = {
                 128: '32rem',
                 144: '36rem',
                 160: '40rem',
+                168: '42rem',
+                172: '43rem',
                 176: '44rem',
                 192: '48rem',
                 208: '52rem',

@@ -4,11 +4,11 @@
 }
 
 *::-webkit-scrollbar-track {
-  background: #00000021;
+  background: #00000000;
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #c0c0c060;
+  background-color: #c0c0c077;
   border-radius: 10px;
   border: 0px solid #ffffff;
 }
@@ -24,3 +24,4 @@
     font-family: Poppins, Montserrat, sans-serif;
   }
 }
+

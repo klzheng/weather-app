@@ -59,7 +59,7 @@ export default function WeatherIcon(props) {
         <div className={weatherCondition ? " text-center " : "py-2 text-center"}>
             <i className={`text-3xl wi ${getWeatherIcon(weatherCode.toString())[0]} ${styling}`}></i>
             {weatherCondition && 
-                <p className="text-sm font-extralight text-center">{getWeatherIcon(weatherCode.toString())[1]}</p>}
+                <p className="text-sm font-extralight text-center my-1">{getWeatherIcon(weatherCode.toString())[1]}</p>}
         </div>
     )
 }

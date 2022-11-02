@@ -7,9 +7,9 @@ export default function Header(props) {
     return (
         <>
             {Object.keys(data).length !== 0 &&
-                <section className=" mt-5 w-104">
+                <section className=" w-104">
 
-                    <div className="flex gap-x-8 justify-center">
+                    <div className="sm:flex sm:flex-row 2xs:flex-col gap-x-8 2xs:space-y-5 sm:gap-y-0 justify-center items-center">
                         <div className="col-span-1 flex items-center justify-center">
                             <span className="text-6xl tracking-tight">{data[0].values.temperature.toFixed(0)}°</span>
                         </div>
@@ -22,7 +22,7 @@ export default function Header(props) {
                             </p>
                         </div>
 
-                        <div className="col-span-1 flex-col flex items-center justify-center">
+                        <div className="col-span-1 flex-col flex ">
                             <WeatherIcon
                                 weatherCode={data[0].values.weatherCode}
                                 weatherCondition={true}
@@ -30,7 +30,7 @@ export default function Header(props) {
                         </div>
                     </div>
 
-                    <div className=" flex flex-row items-center justify-center text-sm font-light mt-4 space-x-4 text-gray-300">
+                    <div className=" flex flex-row items-center justify-center text-sm font-light mt-12 space-x-4 text-gray-300">
                         <span>
                             <i className="fa-solid fa-umbrella"></i> Precipitation: {data[0].values.precipitationProbability}% {data[0].values.precipitationIntensity !== 0 && `(${data[0].values.precipitationIntensity})`}
                         </span>
@@ -39,7 +39,7 @@ export default function Header(props) {
                         </span>
                     </div>
                     
-                    <div className=" flex flex-row items-center justify-center text-sm font-light space-x-4 text-gray-300">
+                    <div className=" flex flex-row items-center justify-center text-sm font-light space-x-4 text-gray-300 mb-4 ">
                         <span>
                             <i className="fa-solid fa-droplet"></i> Humidity: {data[0].values.humidity}%
                         </span>

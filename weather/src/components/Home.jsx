@@ -8,10 +8,12 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
 import Geocode from "react-geocode";
-// import weatherData from "../data.json"
+import weatherData from "../data2.json"
+
 
 export default function Home() {
 
+    const [isLoading, setLoading] = useState(true)
     const [hourlyData, setHourlyData] = useState({})
     const [dailyData, setDailyData] = useState({})
     const [currentData, setCurrentData] = useState({})
@@ -51,14 +53,16 @@ export default function Home() {
     }, { arrayFormat: "comma" });
 
     const getWeatherData = async () => {
-        
-        try {            
-            const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
-            const weatherData = await response.json()
-            // console.log(weatherData)
+
+        try {
+            setLoading(true)
+            // const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
+            // const weatherData = await response.json()
             setCurrentData(weatherData.data.timelines[2].intervals)
             setHourlyData(weatherData.data.timelines[1].intervals.slice(0, 24))
             setDailyData(weatherData.data.timelines[0].intervals)
+            console.log(weatherData)
+            setLoading(false)
         } catch (err) {
             console.log(err)
         }
@@ -71,7 +75,7 @@ export default function Home() {
             const address = await res.results[0].formatted_address
             const { lat, lng } = await res.results[0].geometry.location
             setAddress(address.replace(/[0-9]/g, '').split(","))
-            setLatLong([lat,lng])
+            setLatLong([lat, lng])
         } catch (err) {
             console.log(err)
         }
@@ -80,19 +84,22 @@ export default function Home() {
 
     useEffect(() => {
         getLatLong(latLong) // eslint-disable-next-line
-    },[]) 
+    }, [])
 
 
     useEffect(() => {
         getWeatherData() // eslint-disable-next-line
-    }, [latLong]) 
+    }, [latLong])
+
 
     
 
+
     return (
         <Background data={currentData}>
-            <Container>
-
+            
+            <Container isLoading={isLoading}>
+                
                 <Header
                     data={currentData}
                     address={address} />
@@ -118,6 +125,7 @@ export default function Home() {
                     temp={false}
                     tempRange={true} />
 
+                
             </Container>
         </Background>
     )

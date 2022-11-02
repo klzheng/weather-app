@@ -18,21 +18,23 @@ import bgThunderstorm from "../assets/bg-thunderstorm.mp4"
 import bgNight from "../assets/bg-night.mp4"
 import bgNight2 from "../assets/bg-night-2.mp4"
 
+
 export default function Background({ children, data }) {
 
     const [bg, setBg] = useState("")
     const hour = moment(moment()).local().format("HH")
+    const nightTime = (hour >= 18 || hour <= 4)
 
     const getBackgroundImg = useCallback((weatherCode) => {
-        if ((weatherCode === 1101 || weatherCode === 1001) && hour >= 18) {
+        if ((weatherCode === 1101 || weatherCode === 1001) && nightTime) {
             setBg(bgNight2)
         } else if (weatherCode === 1101) {
             setBg(bgCloudy)
         } else if (weatherCode === 1001) {
             setBg(bgCloudy2)
-        } else if ((weatherCode === 1000 || weatherCode === 1100 || weatherCode === 1101) && hour >= 18) {
+        } else if ((weatherCode === 1000 || weatherCode === 1100 || weatherCode === 1101) && nightTime) {
             setBg(bgNight)
-        } else if (weatherCode === 1000 ) {
+        } else if (weatherCode === 1000) {
             setBg(bgClear)
         } else if (weatherCode === 1100) {
             setBg(bgClear2)
@@ -48,7 +50,7 @@ export default function Background({ children, data }) {
             setBg(bgRain)
         } else if (weatherCode === 4201 || weatherCode === 6201) {
             setBg(bgRain4)
-        } else if ((weatherCode === 5000 || weatherCode === 5001 || weatherCode === 5101) && hour >= 18) {
+        } else if ((weatherCode === 5000 || weatherCode === 5001 || weatherCode === 5101) && nightTime) {
             setBg(bgSnow4)
         } else if (weatherCode === 5000) {
             setBg(bgSnow2)
@@ -63,7 +65,7 @@ export default function Background({ children, data }) {
         } else {
             setBg(bgNight)
         }
-    },[hour])
+    }, [nightTime])
 
     useEffect(() => {
         if (Object.keys(data).length !== 0) getBackgroundImg(data[0].values.weatherCode)
@@ -72,8 +74,8 @@ export default function Background({ children, data }) {
     return (
         <>
             {Object.keys(data).length !== 0 &&
-                <div className="fixed inset-0 bg-cover text-white overflow-y-auto">
-                    <video src={bg} autoPlay loop muted className="fixed inset-0 object-cover text-white overflow-y-auto -z-10 h-screen"/>
+                <div className={" inset-0 bg-cover text-white overflow-auto bg-gradient-to-b from-gray-600 to-gray-900 transition-all"}>
+                    <video src={bg} autoPlay loop muted className="fixed inset-0 object-cover text-white -z-10 min-h-full min-w-full" />
                     {children}
                 </div>
             }

@@ -16,7 +16,7 @@ export default function SearchBar(props) {
     }
 
     return (
-        <section className="my-8">
+        <section className="my-5">
             <form onSubmit={submitSearch}>
                 <input
                     type="text"
@@ -24,10 +24,10 @@ export default function SearchBar(props) {
                     onChange={toggleChange}
                     onSubmit={submitSearch}
                     placeholder="Search for a city..."
-                    className="bg-light-transparent rounded-full px-3 py-1 w-80 outline-none" />
+                    className="bg-light-transparent rounded-full px-3 py-1 2xs:w-64 xs:w-80 outline-none transition-all" />
                 <button
                     onSubmit={submitSearch}
-                    className="brightness-50 w-8 h-8 mx-1 bg-light-transparent rounded-full"><i className="fa-solid fa-magnifying-glass "></i></button>
+                    className="brightness-60 w-8 h-8 mx-1 bg-light-transparent 2xs:hidden xs:inline-block rounded-full"><i className="fa-solid fa-magnifying-glass  "></i></button>
             </form>
         </section>
     )
