@@ -8,7 +8,7 @@ import Header from "./Header";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
 import Geocode from "react-geocode";
-import weatherData from "../data2.json"
+// import weatherData from "../data2.json"
 
 
 export default function Home() {
@@ -56,8 +56,8 @@ export default function Home() {
 
         try {
             setLoading(true)
-            // const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
-            // const weatherData = await response.json()
+            const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
+            const weatherData = await response.json()
             setCurrentData(weatherData.data.timelines[2].intervals)
             setHourlyData(weatherData.data.timelines[1].intervals.slice(0, 24))
             setDailyData(weatherData.data.timelines[0].intervals)
