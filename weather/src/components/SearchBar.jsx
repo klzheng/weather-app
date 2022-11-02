@@ -16,7 +16,7 @@ export default function SearchBar(props) {
     }
 
     return (
-        <section className="my-6">
+        <section className="my-8">
             <form onSubmit={submitSearch}>
                 <input
                     type="text"

@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'background': "url('../public/bg78.jpg')",
+                'background': `url('../public/bg78.jpg')`,
             },
             boxShadow: {
                 "dark": "0 0 10px 5px #1915154e"

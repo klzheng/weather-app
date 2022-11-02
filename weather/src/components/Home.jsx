@@ -7,8 +7,8 @@ import Forecast from "./Forecast";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
-// import weatherData from "../data.json"
 import Geocode from "react-geocode";
+// import weatherData from "../data.json"
 
 export default function Home() {
 
@@ -40,7 +40,6 @@ export default function Home() {
     const now = moment.utc();
     const startTime = moment.utc(now).add(0, "minutes").toISOString();
     const endTime = moment.utc(now).add(7, "days").toISOString();
-    // const timezone = "America/New_York";
     const getTimelineParameters = queryString.stringify({
         apikey,
         location,
@@ -56,7 +55,7 @@ export default function Home() {
         try {            
             const response = await fetch(getTimelineURL + "?" + getTimelineParameters, { method: "GET", compress: true })
             const weatherData = await response.json()
-            console.log(weatherData)
+            // console.log(weatherData)
             setCurrentData(weatherData.data.timelines[2].intervals)
             setHourlyData(weatherData.data.timelines[1].intervals.slice(0, 24))
             setDailyData(weatherData.data.timelines[0].intervals)
@@ -64,7 +63,6 @@ export default function Home() {
             console.log(err)
         }
     }
-    
 
     Geocode.setApiKey(process.env.REACT_APP_GMAPS_GEOCODING_API_KEY);
     const getLatLong = async (location) => {
@@ -92,7 +90,7 @@ export default function Home() {
     
 
     return (
-        <Background>
+        <Background data={currentData}>
             <Container>
 
                 <Header

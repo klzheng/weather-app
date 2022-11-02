@@ -9,9 +9,9 @@ export default function Header(props) {
             {Object.keys(data).length !== 0 &&
                 <section className=" mt-5 w-104">
 
-                    <div className="flex gap-x-6 justify-center">
+                    <div className="flex gap-x-8 justify-center">
                         <div className="col-span-1 flex items-center justify-center">
-                            <span className="text-6xl">{data[0].values.temperature.toFixed(0)}°</span>
+                            <span className="text-6xl tracking-tight">{data[0].values.temperature.toFixed(0)}°</span>
                         </div>
 
                         <div className="col-span-2 flex flex-col items-center justify-center">
@@ -26,7 +26,7 @@ export default function Header(props) {
                             <WeatherIcon
                                 weatherCode={data[0].values.weatherCode}
                                 weatherCondition={true}
-                                styling={"text-[3.5rem]"} />
+                                styling={"text-[3.0rem]"} />
                         </div>
                     </div>
 

@@ -8,7 +8,7 @@ export default function Forecast(props) {
     return (
         <>
             {Object.keys(data).length !== 0 &&
-                <section className="mb-5 ">
+                <section className="mb-10 ">
                     <h1 className="mb-2 text-lg font-semibold tracking-wide text-gray-400">{timeFrame} FORECAST</h1>
                     <div className="flex space-x-10 overflow-auto w-96 my-2">
                         {data.map((item, index) => (
