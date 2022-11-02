@@ -32,7 +32,7 @@ export default function Header(props) {
 
                     <div className=" flex flex-row items-center justify-center text-sm font-light mt-12 space-x-4 text-gray-300">
                         <span>
-                            <i className="fa-solid fa-umbrella"></i> Precipitation: {data[0].values.precipitationProbability}% {data[0].values.precipitationIntensity !== 0 && `(${data[0].values.precipitationIntensity})`}
+                            <i className="fa-solid fa-umbrella"></i> Precipitation: {data[0].values.precipitationProbability}% {data[0].values.precipitationIntensity !== 0 && `(${data[0].values.precipitationIntensity} in)`}
                         </span>
                         <span>
                             <i className="fa-solid fa-wind"></i> Wind: {data[0].values.windSpeed} mph
