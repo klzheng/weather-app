@@ -7,7 +7,6 @@ import Forecast from "./Forecast";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
 import { useState } from "react";
-import Geocode from "react-geocode";
 import weatherData from "../data.json"
 
 export default function Home() {
@@ -25,6 +24,7 @@ export default function Home() {
     {
       key: process.env.REACT_APP_MAPS_API_KEY,
       location: { latitude: 40.712775, longitude: -74.005973 },
+      pageSize: 7
     },
     {
       allowDots: true,
@@ -45,8 +45,7 @@ export default function Home() {
       console.log(e);
     }
   };
-
-  getWeatherData();
+  
 
   // Geocode.setApiKey(process.env.REACT_APP_GMAPS_GEOCODING_API_KEY);
   // const getLatLong = async (location) => {
@@ -65,9 +64,9 @@ export default function Home() {
   //   getLatLong(latLong);
   // }, []);
 
-  // useEffect(() => {
-  //   getWeatherData();
-  // }, [latLong]);
+  useEffect(() => {
+    getWeatherData();
+  }, [latLong]);
 
   return (
     <Background data={currentData}>
