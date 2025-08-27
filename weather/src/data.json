@@ -1,2838 +1,708 @@
 {
-    "data": {
-        "timelines": [
-            {
-                "timestep": "1d",
-                "endTime": "2022-11-08T05:00:00-05:00",
-                "startTime": "2022-11-01T06:00:00-04:00",
-                "intervals": [
-                    {
-                        "startTime": "2022-11-01T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 93,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.35,
-                            "temperatureApparent": 68.35,
-                            "temperatureMax": 68.35,
-                            "temperatureMin": 52.49,
-                            "uvIndex": 1,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.26
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.36,
-                            "humidity": 96.58,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.2,
-                            "temperatureApparent": 67.2,
-                            "temperatureMax": 67.2,
-                            "temperatureMin": 48.5,
-                            "uvIndex": 3,
-                            "weatherCode": 1000,
-                            "windSpeed": 8.87
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 35.16,
-                            "humidity": 98.21,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.32,
-                            "temperatureApparent": 62.32,
-                            "temperatureMax": 62.32,
-                            "temperatureMin": 47.44,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 7.71
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 99.05,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.24,
-                            "temperatureApparent": 65.24,
-                            "temperatureMax": 65.24,
-                            "temperatureMin": 47.27,
-                            "uvIndex": 2,
-                            "weatherCode": 1100,
-                            "windSpeed": 7.98
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 87.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 72.16,
-                            "temperatureApparent": 72.16,
-                            "temperatureMax": 72.16,
-                            "temperatureMin": 64.45,
-                            "uvIndex": 3,
-                            "weatherCode": 1001,
-                            "windSpeed": 13.74
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 92.51,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 72.99,
-                            "temperatureApparent": 72.99,
-                            "temperatureMax": 72.99,
-                            "temperatureMin": 63.88,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.96
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 61.78,
-                            "humidity": 92.86,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 73.34,
-                            "temperatureApparent": 73.34,
-                            "temperatureMax": 73.34,
-                            "temperatureMin": 60.44,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.65
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 32.45,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.65,
-                            "temperatureApparent": 60.65,
-                            "temperatureMax": 60.65,
-                            "temperatureMin": 57.23,
-                            "weatherCode": 1000,
-                            "windSpeed": 17.15
-                        }
-                    }
-                ]
-            },
-            {
-                "timestep": "1h",
-                "endTime": "2022-11-08T13:00:00-05:00",
-                "startTime": "2022-11-01T14:00:00-04:00",
-                "intervals": [
-                    {
-                        "startTime": "2022-11-01T14:00:00-04:00",
-                        "values": {
-                            "cloudCover": 87,
-                            "humidity": 80,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.3,
-                            "temperatureApparent": 65.3,
-                            "temperatureMax": 65.3,
-                            "temperatureMin": 65.3,
-                            "uvIndex": 1,
-                            "weatherCode": 1001,
-                            "windSpeed": 4.05
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T15:00:00-04:00",
-                        "values": {
-                            "cloudCover": 87.25,
-                            "humidity": 76.2,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.52,
-                            "temperatureApparent": 67.52,
-                            "temperatureMax": 67.52,
-                            "temperatureMin": 67.52,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 4.13
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T16:00:00-04:00",
-                        "values": {
-                            "cloudCover": 80.98,
-                            "humidity": 67,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.35,
-                            "temperatureApparent": 68.35,
-                            "temperatureMax": 68.35,
-                            "temperatureMin": 68.35,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 4.53
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T17:00:00-04:00",
-                        "values": {
-                            "cloudCover": 99.33,
-                            "humidity": 70.06,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.18,
-                            "temperatureApparent": 67.18,
-                            "temperatureMax": 67.18,
-                            "temperatureMin": 67.18,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 3.7
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T18:00:00-04:00",
-                        "values": {
-                            "cloudCover": 68.09,
-                            "humidity": 87.74,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.46,
-                            "temperatureApparent": 62.46,
-                            "temperatureMax": 62.46,
-                            "temperatureMin": 62.46,
-                            "uvIndex": 0,
-                            "weatherCode": 1102,
-                            "windSpeed": 5.22
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T19:00:00-04:00",
-                        "values": {
-                            "cloudCover": 1.68,
-                            "humidity": 89.07,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.96,
-                            "temperatureApparent": 60.96,
-                            "temperatureMax": 60.96,
-                            "temperatureMin": 60.96,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.45
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T20:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 89.85,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.34,
-                            "temperatureApparent": 59.34,
-                            "temperatureMax": 59.34,
-                            "temperatureMin": 59.34,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.15
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T21:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 89.09,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 58.27,
-                            "temperatureApparent": 58.27,
-                            "temperatureMax": 58.27,
-                            "temperatureMin": 58.27,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.72
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T22:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.23,
-                            "humidity": 88.3,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.29,
-                            "temperatureApparent": 57.29,
-                            "temperatureMax": 57.29,
-                            "temperatureMin": 57.29,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.16
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-01T23:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.13,
-                            "humidity": 88,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 56.5,
-                            "temperatureApparent": 56.5,
-                            "temperatureMax": 56.5,
-                            "temperatureMin": 56.5,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.09
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T00:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 85.79,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 55.92,
-                            "temperatureApparent": 55.92,
-                            "temperatureMax": 55.92,
-                            "temperatureMin": 55.92,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.9
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T01:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 82.72,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 55.59,
-                            "temperatureApparent": 55.59,
-                            "temperatureMax": 55.59,
-                            "temperatureMin": 55.59,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.57
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T02:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 79.92,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 54.99,
-                            "temperatureApparent": 54.99,
-                            "temperatureMax": 54.99,
-                            "temperatureMin": 54.99,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.23
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T03:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 80.39,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 54.3,
-                            "temperatureApparent": 54.3,
-                            "temperatureMax": 54.3,
-                            "temperatureMin": 54.3,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.26
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T04:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.32,
-                            "humidity": 84.05,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 53.39,
-                            "temperatureApparent": 53.39,
-                            "temperatureMax": 53.39,
-                            "temperatureMin": 53.39,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.95
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T05:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.55,
-                            "humidity": 85.52,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 52.49,
-                            "temperatureApparent": 52.49,
-                            "temperatureMax": 52.49,
-                            "temperatureMin": 52.49,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.84
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 1.86,
-                            "humidity": 87.02,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 51.19,
-                            "temperatureApparent": 51.19,
-                            "temperatureMax": 51.19,
-                            "temperatureMin": 51.19,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.1
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T07:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.23,
-                            "humidity": 87.33,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 50.68,
-                            "temperatureApparent": 50.68,
-                            "temperatureMax": 50.68,
-                            "temperatureMin": 50.68,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.21
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T08:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.36,
-                            "humidity": 88.5,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 50.23,
-                            "temperatureApparent": 50.23,
-                            "temperatureMax": 50.23,
-                            "temperatureMin": 50.23,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.03
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T09:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 90.28,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 54.82,
-                            "temperatureApparent": 54.82,
-                            "temperatureMax": 54.82,
-                            "temperatureMin": 54.82,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.46
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T10:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 83.41,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.7,
-                            "temperatureApparent": 57.7,
-                            "temperatureMax": 57.7,
-                            "temperatureMin": 57.7,
-                            "uvIndex": 1,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.66
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T11:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 74.04,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.92,
-                            "temperatureApparent": 60.92,
-                            "temperatureMax": 60.92,
-                            "temperatureMin": 60.92,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 7.18
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T12:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 63.91,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 63.81,
-                            "temperatureApparent": 63.81,
-                            "temperatureMax": 63.81,
-                            "temperatureMin": 63.81,
-                            "uvIndex": 3,
-                            "weatherCode": 1000,
-                            "windSpeed": 8.79
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T13:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 57.47,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.66,
-                            "temperatureApparent": 65.66,
-                            "temperatureMax": 65.66,
-                            "temperatureMin": 65.66,
-                            "uvIndex": 3,
-                            "weatherCode": 1000,
-                            "windSpeed": 8.87
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T14:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 53.46,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.82,
-                            "temperatureApparent": 66.82,
-                            "temperatureMax": 66.82,
-                            "temperatureMin": 66.82,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 8.16
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T15:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 52.71,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.2,
-                            "temperatureApparent": 67.2,
-                            "temperatureMax": 67.2,
-                            "temperatureMin": 67.2,
-                            "uvIndex": 1,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.56
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T16:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 53.1,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.08,
-                            "temperatureApparent": 67.08,
-                            "temperatureMax": 67.08,
-                            "temperatureMin": 67.08,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.66
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T17:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 64.83,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.08,
-                            "temperatureApparent": 65.08,
-                            "temperatureMax": 65.08,
-                            "temperatureMin": 65.08,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 2.69
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T18:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 72.56,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.21,
-                            "temperatureApparent": 59.21,
-                            "temperatureMax": 59.21,
-                            "temperatureMin": 59.21,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.44
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T19:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 69.95,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 58.72,
-                            "temperatureApparent": 58.72,
-                            "temperatureMax": 58.72,
-                            "temperatureMin": 58.72,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.32
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T20:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 72.17,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.14,
-                            "temperatureApparent": 57.14,
-                            "temperatureMax": 57.14,
-                            "temperatureMin": 57.14,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.17
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T21:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 77.59,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 55.21,
-                            "temperatureApparent": 55.21,
-                            "temperatureMax": 55.21,
-                            "temperatureMin": 55.21,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.59
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T22:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 82.41,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 53.55,
-                            "temperatureApparent": 53.55,
-                            "temperatureMax": 53.55,
-                            "temperatureMin": 53.55,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.88
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-02T23:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 86,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 52.43,
-                            "temperatureApparent": 52.43,
-                            "temperatureMax": 52.43,
-                            "temperatureMin": 52.43,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.72
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T00:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 88.88,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 51.63,
-                            "temperatureApparent": 51.63,
-                            "temperatureMax": 51.63,
-                            "temperatureMin": 51.63,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.59
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T01:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 91.77,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 50.85,
-                            "temperatureApparent": 50.85,
-                            "temperatureMax": 50.85,
-                            "temperatureMin": 50.85,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.29
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T02:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 94,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 49.94,
-                            "temperatureApparent": 49.94,
-                            "temperatureMax": 49.94,
-                            "temperatureMin": 49.94,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.47
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T03:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 95.53,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 49.19,
-                            "temperatureApparent": 49.19,
-                            "temperatureMax": 49.19,
-                            "temperatureMin": 49.19,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.39
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T04:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 96.21,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.97,
-                            "temperatureApparent": 48.97,
-                            "temperatureMax": 48.97,
-                            "temperatureMin": 48.97,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.72
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T05:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 96.58,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.5,
-                            "temperatureApparent": 48.5,
-                            "temperatureMax": 48.5,
-                            "temperatureMin": 48.5,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.78
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.78,
-                            "humidity": 97.46,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.38,
-                            "temperatureApparent": 48.38,
-                            "temperatureMax": 48.38,
-                            "temperatureMin": 48.38,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.56
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T07:00:00-04:00",
-                        "values": {
-                            "cloudCover": 35.16,
-                            "humidity": 97.75,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.13,
-                            "temperatureApparent": 48.13,
-                            "temperatureMax": 48.13,
-                            "temperatureMin": 48.13,
-                            "uvIndex": 0,
-                            "weatherCode": 2100,
-                            "windSpeed": 3.96
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T08:00:00-04:00",
-                        "values": {
-                            "cloudCover": 10.94,
-                            "humidity": 96.47,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 49.85,
-                            "temperatureApparent": 49.85,
-                            "temperatureMax": 49.85,
-                            "temperatureMin": 49.85,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.76
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T09:00:00-04:00",
-                        "values": {
-                            "cloudCover": 3.91,
-                            "humidity": 90.63,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 53.32,
-                            "temperatureApparent": 53.32,
-                            "temperatureMax": 53.32,
-                            "temperatureMin": 53.32,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.83
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T10:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 80.89,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.09,
-                            "temperatureApparent": 57.09,
-                            "temperatureMax": 57.09,
-                            "temperatureMin": 57.09,
-                            "uvIndex": 1,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.96
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T11:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 71.06,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.93,
-                            "temperatureApparent": 59.93,
-                            "temperatureMax": 59.93,
-                            "temperatureMin": 59.93,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.77
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T12:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 67.52,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.55,
-                            "temperatureApparent": 61.55,
-                            "temperatureMax": 61.55,
-                            "temperatureMin": 61.55,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.18
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T13:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 66.99,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.25,
-                            "temperatureApparent": 62.25,
-                            "temperatureMax": 62.25,
-                            "temperatureMin": 62.25,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.61
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T14:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 66.55,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.32,
-                            "temperatureApparent": 62.32,
-                            "temperatureMax": 62.32,
-                            "temperatureMin": 62.32,
-                            "uvIndex": 2,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.93
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T15:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 65.47,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.81,
-                            "temperatureApparent": 61.81,
-                            "temperatureMax": 61.81,
-                            "temperatureMin": 61.81,
-                            "uvIndex": 1,
-                            "weatherCode": 1000,
-                            "windSpeed": 7.71
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T16:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 66.25,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.87,
-                            "temperatureApparent": 60.87,
-                            "temperatureMax": 60.87,
-                            "temperatureMin": 60.87,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 7.69
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T17:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 71.77,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.19,
-                            "temperatureApparent": 59.19,
-                            "temperatureMax": 59.19,
-                            "temperatureMin": 59.19,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.29
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T18:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 83.79,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 54.74,
-                            "temperatureApparent": 54.74,
-                            "temperatureMax": 54.74,
-                            "temperatureMin": 54.74,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T19:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 87.22,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 53.23,
-                            "temperatureApparent": 53.23,
-                            "temperatureMax": 53.23,
-                            "temperatureMin": 53.23,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T20:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 88.47,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 52.48,
-                            "temperatureApparent": 52.48,
-                            "temperatureMax": 52.48,
-                            "temperatureMin": 52.48,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.47
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T21:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 89.72,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 52.01,
-                            "temperatureApparent": 52.01,
-                            "temperatureMax": 52.01,
-                            "temperatureMin": 52.01,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.88
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T22:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 90.97,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 51.21,
-                            "temperatureApparent": 51.21,
-                            "temperatureMax": 51.21,
-                            "temperatureMin": 51.21,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.28
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-03T23:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 91.95,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 50.73,
-                            "temperatureApparent": 50.73,
-                            "temperatureMax": 50.73,
-                            "temperatureMin": 50.73,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.33
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T00:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 94.14,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 49.5,
-                            "temperatureApparent": 49.5,
-                            "temperatureMax": 49.5,
-                            "temperatureMin": 49.5,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 6.42
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T01:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 95.52,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.99,
-                            "temperatureApparent": 48.99,
-                            "temperatureMax": 48.99,
-                            "temperatureMin": 48.99,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.53
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T02:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 97.74,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 47.54,
-                            "temperatureApparent": 47.54,
-                            "temperatureMax": 47.54,
-                            "temperatureMin": 47.54,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 5.46
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T03:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 98.21,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 47.44,
-                            "temperatureApparent": 47.44,
-                            "temperatureMax": 47.44,
-                            "temperatureMin": 47.44,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.95
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T04:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 98.08,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.41,
-                            "temperatureApparent": 48.41,
-                            "temperatureMax": 48.41,
-                            "temperatureMin": 48.41,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.47
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T05:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 96.75,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 49.38,
-                            "temperatureApparent": 49.38,
-                            "temperatureMax": 49.38,
-                            "temperatureMin": 49.38,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.2
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0.78,
-                            "humidity": 97.39,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.51,
-                            "temperatureApparent": 48.51,
-                            "temperatureMax": 48.51,
-                            "temperatureMin": 48.51,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.21
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T07:00:00-04:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 97.25,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 48.85,
-                            "temperatureApparent": 48.85,
-                            "temperatureMax": 48.85,
-                            "temperatureMin": 48.85,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.27
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T08:00:00-04:00",
-                        "values": {
-                            "cloudCover": 10.16,
-                            "humidity": 99.05,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 47.27,
-                            "temperatureApparent": 47.27,
-                            "temperatureMax": 47.27,
-                            "temperatureMin": 47.27,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.69
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T09:00:00-04:00",
-                        "values": {
-                            "cloudCover": 14.06,
-                            "humidity": 96.29,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 51.54,
-                            "temperatureApparent": 51.54,
-                            "temperatureMax": 51.54,
-                            "temperatureMin": 51.54,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.64
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T10:00:00-04:00",
-                        "values": {
-                            "cloudCover": 34.9,
-                            "humidity": 88.38,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 55.34,
-                            "temperatureApparent": 55.34,
-                            "temperatureMax": 55.34,
-                            "temperatureMin": 55.34,
-                            "uvIndex": 1,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.6
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T11:00:00-04:00",
-                        "values": {
-                            "cloudCover": 26.42,
-                            "humidity": 80.06,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.28,
-                            "temperatureApparent": 59.28,
-                            "temperatureMax": 59.28,
-                            "temperatureMin": 59.28,
-                            "uvIndex": 2,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.94
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T12:00:00-04:00",
-                        "values": {
-                            "cloudCover": 30.95,
-                            "humidity": 76.12,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.42,
-                            "temperatureApparent": 61.42,
-                            "temperatureMax": 61.42,
-                            "temperatureMin": 61.42,
-                            "uvIndex": 2,
-                            "weatherCode": 1100,
-                            "windSpeed": 5.62
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T13:00:00-04:00",
-                        "values": {
-                            "cloudCover": 14.41,
-                            "humidity": 72.7,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 63.09,
-                            "temperatureApparent": 63.09,
-                            "temperatureMax": 63.09,
-                            "temperatureMin": 63.09,
-                            "uvIndex": 2,
-                            "weatherCode": 1100,
-                            "windSpeed": 6.56
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T14:00:00-04:00",
-                        "values": {
-                            "cloudCover": 20.61,
-                            "humidity": 69.33,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.31,
-                            "temperatureApparent": 64.31,
-                            "temperatureMax": 64.31,
-                            "temperatureMin": 64.31,
-                            "uvIndex": 2,
-                            "weatherCode": 1100,
-                            "windSpeed": 6.91
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T15:00:00-04:00",
-                        "values": {
-                            "cloudCover": 61.72,
-                            "humidity": 66.84,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.24,
-                            "temperatureApparent": 65.24,
-                            "temperatureMax": 65.24,
-                            "temperatureMin": 65.24,
-                            "uvIndex": 1,
-                            "weatherCode": 1101,
-                            "windSpeed": 6.62
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T16:00:00-04:00",
-                        "values": {
-                            "cloudCover": 67.18,
-                            "humidity": 67.29,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.1,
-                            "temperatureApparent": 65.1,
-                            "temperatureMax": 65.1,
-                            "temperatureMin": 65.1,
-                            "uvIndex": 0,
-                            "weatherCode": 1102,
-                            "windSpeed": 7.16
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T17:00:00-04:00",
-                        "values": {
-                            "cloudCover": 57.73,
-                            "humidity": 70.93,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 63.79,
-                            "temperatureApparent": 63.79,
-                            "temperatureMax": 63.79,
-                            "temperatureMin": 63.79,
-                            "uvIndex": 0,
-                            "weatherCode": 1101,
-                            "windSpeed": 7.98
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T18:00:00-04:00",
-                        "values": {
-                            "cloudCover": 53.2,
-                            "humidity": 75.15,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.4,
-                            "temperatureApparent": 62.4,
-                            "temperatureMax": 62.4,
-                            "temperatureMin": 62.4,
-                            "uvIndex": 0,
-                            "weatherCode": 1101,
-                            "windSpeed": 6.82
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T19:00:00-04:00",
-                        "values": {
-                            "cloudCover": 47.98,
-                            "humidity": 76.58,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.31,
-                            "temperatureApparent": 62.31,
-                            "temperatureMax": 62.31,
-                            "temperatureMin": 62.31,
-                            "uvIndex": 0,
-                            "weatherCode": 1101,
-                            "windSpeed": 6.04
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T20:00:00-04:00",
-                        "values": {
-                            "cloudCover": 43.35,
-                            "humidity": 77.87,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.41,
-                            "temperatureApparent": 62.41,
-                            "temperatureMax": 62.41,
-                            "temperatureMin": 62.41,
-                            "uvIndex": 0,
-                            "weatherCode": 1101,
-                            "windSpeed": 5.48
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T21:00:00-04:00",
-                        "values": {
-                            "cloudCover": 14.48,
-                            "humidity": 79.58,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.5,
-                            "temperatureApparent": 62.5,
-                            "temperatureMax": 62.5,
-                            "temperatureMin": 62.5,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 5.15
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T22:00:00-04:00",
-                        "values": {
-                            "cloudCover": 16.08,
-                            "humidity": 81.53,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 62.19,
-                            "temperatureApparent": 62.19,
-                            "temperatureMax": 62.19,
-                            "temperatureMin": 62.19,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.78
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-04T23:00:00-04:00",
-                        "values": {
-                            "cloudCover": 14.25,
-                            "humidity": 82.02,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.92,
-                            "temperatureApparent": 61.92,
-                            "temperatureMax": 61.92,
-                            "temperatureMin": 61.92,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.38
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T00:00:00-04:00",
-                        "values": {
-                            "cloudCover": 13.05,
-                            "humidity": 82.62,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.6,
-                            "temperatureApparent": 61.6,
-                            "temperatureMax": 61.6,
-                            "temperatureMin": 61.6,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.43
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T01:00:00-04:00",
-                        "values": {
-                            "cloudCover": 12.43,
-                            "humidity": 83.9,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.31,
-                            "temperatureApparent": 61.31,
-                            "temperatureMax": 61.31,
-                            "temperatureMin": 61.31,
-                            "uvIndex": 0,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.76
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T02:00:00-04:00",
-                        "values": {
-                            "cloudCover": 11.14,
-                            "humidity": 85.35,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.94,
-                            "temperatureApparent": 60.94,
-                            "temperatureMax": 60.94,
-                            "temperatureMin": 60.94,
-                            "uvIndex": 0,
-                            "weatherCode": 1000,
-                            "windSpeed": 4.26
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T03:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 85.78,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.49,
-                            "temperatureApparent": 64.49,
-                            "temperatureMax": 64.49,
-                            "temperatureMin": 64.49,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 6.76
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T04:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 85.27,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.69,
-                            "temperatureApparent": 64.69,
-                            "temperatureMax": 64.69,
-                            "temperatureMin": 64.69,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 6.41
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T05:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 85.17,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.59,
-                            "temperatureApparent": 64.59,
-                            "temperatureMax": 64.59,
-                            "temperatureMin": 64.59,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 5.66
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T06:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 84.93,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.53,
-                            "temperatureApparent": 64.53,
-                            "temperatureMax": 64.53,
-                            "temperatureMin": 64.53,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 5.33
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T07:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 83.97,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.6,
-                            "temperatureApparent": 64.6,
-                            "temperatureMax": 64.6,
-                            "temperatureMin": 64.6,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 5.28
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T08:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 82.63,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.72,
-                            "temperatureApparent": 64.72,
-                            "temperatureMax": 64.72,
-                            "temperatureMin": 64.72,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 5.87
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T09:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 79.68,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.39,
-                            "temperatureApparent": 65.39,
-                            "temperatureMax": 65.39,
-                            "temperatureMin": 65.39,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 6.45
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T10:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 76.24,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.18,
-                            "temperatureApparent": 66.18,
-                            "temperatureMax": 66.18,
-                            "temperatureMin": 66.18,
-                            "uvIndex": 1,
-                            "weatherCode": 1001,
-                            "windSpeed": 7.37
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T11:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 70.35,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.05,
-                            "temperatureApparent": 68.05,
-                            "temperatureMax": 68.05,
-                            "temperatureMin": 68.05,
-                            "uvIndex": 2,
-                            "weatherCode": 1001,
-                            "windSpeed": 8.01
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T12:00:00-04:00",
-                        "values": {
-                            "cloudCover": 99.67,
-                            "humidity": 63.3,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 70.45,
-                            "temperatureApparent": 70.45,
-                            "temperatureMax": 70.45,
-                            "temperatureMin": 70.45,
-                            "uvIndex": 3,
-                            "weatherCode": 1001,
-                            "windSpeed": 9.54
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T13:00:00-04:00",
-                        "values": {
-                            "cloudCover": 88.32,
-                            "humidity": 58.84,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 72.16,
-                            "temperatureApparent": 72.16,
-                            "temperatureMax": 72.16,
-                            "temperatureMin": 72.16,
-                            "uvIndex": 3,
-                            "weatherCode": 1001,
-                            "windSpeed": 12.47
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T14:00:00-04:00",
-                        "values": {
-                            "cloudCover": 84.69,
-                            "humidity": 61.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.27,
-                            "temperatureApparent": 71.27,
-                            "temperatureMax": 71.27,
-                            "temperatureMin": 71.27,
-                            "uvIndex": 2,
-                            "weatherCode": 1001,
-                            "windSpeed": 13.24
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T15:00:00-04:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 62.89,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 70.21,
-                            "temperatureApparent": 70.21,
-                            "temperatureMax": 70.21,
-                            "temperatureMin": 70.21,
-                            "uvIndex": 1,
-                            "weatherCode": 1001,
-                            "windSpeed": 13.74
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T16:00:00-04:00",
-                        "values": {
-                            "cloudCover": 96.11,
-                            "humidity": 58.63,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.05,
-                            "temperatureApparent": 71.05,
-                            "temperatureMax": 71.05,
-                            "temperatureMin": 71.05,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 13.22
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T17:00:00-04:00",
-                        "values": {
-                            "cloudCover": 91.6,
-                            "humidity": 67.13,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.24,
-                            "temperatureApparent": 68.24,
-                            "temperatureMax": 68.24,
-                            "temperatureMin": 68.24,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 12.6
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T18:00:00-04:00",
-                        "values": {
-                            "cloudCover": 80.25,
-                            "humidity": 70,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.3,
-                            "temperatureApparent": 67.3,
-                            "temperatureMax": 67.3,
-                            "temperatureMin": 67.3,
-                            "uvIndex": 0,
-                            "weatherCode": 1001,
-                            "windSpeed": 11.9
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T19:00:00-04:00",
-                        "values": {
-                            "cloudCover": 74.61,
-                            "humidity": 72.64,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.73,
-                            "temperatureApparent": 66.73,
-                            "temperatureMax": 66.73,
-                            "temperatureMin": 66.73,
-                            "uvIndex": 0,
-                            "weatherCode": 1102,
-                            "windSpeed": 11.36
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T20:00:00-04:00",
-                        "values": {
-                            "cloudCover": 62.54,
-                            "humidity": 76.02,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.79,
-                            "temperatureApparent": 65.79,
-                            "temperatureMax": 65.79,
-                            "temperatureMin": 65.79,
-                            "uvIndex": 0,
-                            "weatherCode": 1102,
-                            "windSpeed": 10.72
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T21:00:00-04:00",
-                        "values": {
-                            "cloudCover": 62.49,
-                            "humidity": 77.37,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.8,
-                            "temperatureApparent": 65.8,
-                            "temperatureMax": 65.8,
-                            "temperatureMin": 65.8,
-                            "weatherCode": 1102,
-                            "windSpeed": 10.87
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T22:00:00-04:00",
-                        "values": {
-                            "cloudCover": 81.26,
-                            "humidity": 77.83,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.72,
-                            "temperatureApparent": 65.72,
-                            "temperatureMax": 65.72,
-                            "temperatureMin": 65.72,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.4
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-05T23:00:00-04:00",
-                        "values": {
-                            "cloudCover": 87.49,
-                            "humidity": 78.59,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.4,
-                            "temperatureApparent": 65.4,
-                            "temperatureMax": 65.4,
-                            "temperatureMin": 65.4,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.41
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T00:00:00-04:00",
-                        "values": {
-                            "cloudCover": 90.63,
-                            "humidity": 83.12,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 65.04,
-                            "temperatureApparent": 65.04,
-                            "temperatureMax": 65.04,
-                            "temperatureMin": 65.04,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.96
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T01:00:00-04:00",
-                        "values": {
-                            "cloudCover": 92.48,
-                            "humidity": 87.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 64.75,
-                            "temperatureApparent": 64.75,
-                            "temperatureMax": 64.75,
-                            "temperatureMin": 64.75,
-                            "weatherCode": 1001,
-                            "windSpeed": 11.08
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T01:00:00-05:00",
-                        "values": {
-                            "cloudCover": 93.77,
-                            "humidity": 85.41,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 65.15,
-                            "temperatureApparent": 65.15,
-                            "temperatureMax": 65.15,
-                            "temperatureMin": 65.15,
-                            "weatherCode": 1001,
-                            "windSpeed": 11.49
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T02:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 82.53,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.24,
-                            "temperatureApparent": 65.24,
-                            "temperatureMax": 65.24,
-                            "temperatureMin": 65.24,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.6
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T03:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 82.54,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.83,
-                            "temperatureApparent": 64.83,
-                            "temperatureMax": 64.83,
-                            "temperatureMin": 64.83,
-                            "weatherCode": 1001,
-                            "windSpeed": 9.04
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T04:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 82.38,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.45,
-                            "temperatureApparent": 64.45,
-                            "temperatureMax": 64.45,
-                            "temperatureMin": 64.45,
-                            "weatherCode": 1001,
-                            "windSpeed": 8.18
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 83.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.29,
-                            "temperatureApparent": 64.29,
-                            "temperatureMax": 64.29,
-                            "temperatureMin": 64.29,
-                            "weatherCode": 1001,
-                            "windSpeed": 8.49
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T06:00:00-05:00",
-                        "values": {
-                            "cloudCover": 94.21,
-                            "humidity": 86.79,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.02,
-                            "temperatureApparent": 64.02,
-                            "temperatureMax": 64.02,
-                            "temperatureMin": 64.02,
-                            "weatherCode": 1001,
-                            "windSpeed": 8.13
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T07:00:00-05:00",
-                        "values": {
-                            "cloudCover": 95.2,
-                            "humidity": 89.26,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 63.88,
-                            "temperatureApparent": 63.88,
-                            "temperatureMax": 63.88,
-                            "temperatureMin": 63.88,
-                            "weatherCode": 1001,
-                            "windSpeed": 6.69
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T08:00:00-05:00",
-                        "values": {
-                            "cloudCover": 96.8,
-                            "humidity": 85.93,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.2,
-                            "temperatureApparent": 65.2,
-                            "temperatureMax": 65.2,
-                            "temperatureMin": 65.2,
-                            "weatherCode": 1001,
-                            "windSpeed": 8.11
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T09:00:00-05:00",
-                        "values": {
-                            "cloudCover": 98.4,
-                            "humidity": 82.59,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.52,
-                            "temperatureApparent": 66.52,
-                            "temperatureMax": 66.52,
-                            "temperatureMin": 66.52,
-                            "weatherCode": 1001,
-                            "windSpeed": 9.54
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T10:00:00-05:00",
-                        "values": {
-                            "cloudCover": 100,
-                            "humidity": 79.26,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.84,
-                            "temperatureApparent": 67.84,
-                            "temperatureMax": 67.84,
-                            "temperatureMin": 67.84,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.96
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T11:00:00-05:00",
-                        "values": {
-                            "cloudCover": 99.89,
-                            "humidity": 74.22,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 69.56,
-                            "temperatureApparent": 69.56,
-                            "temperatureMax": 69.56,
-                            "temperatureMin": 69.56,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.76
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T12:00:00-05:00",
-                        "values": {
-                            "cloudCover": 99.77,
-                            "humidity": 69.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.27,
-                            "temperatureApparent": 71.27,
-                            "temperatureMax": 71.27,
-                            "temperatureMin": 71.27,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.56
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T13:00:00-05:00",
-                        "values": {
-                            "cloudCover": 99.66,
-                            "humidity": 64.15,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 72.99,
-                            "temperatureApparent": 72.99,
-                            "temperatureMax": 72.99,
-                            "temperatureMin": 72.99,
-                            "weatherCode": 1001,
-                            "windSpeed": 10.36
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T14:00:00-05:00",
-                        "values": {
-                            "cloudCover": 84.64,
-                            "humidity": 64.74,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 72.86,
-                            "temperatureApparent": 72.86,
-                            "temperatureMax": 72.86,
-                            "temperatureMin": 72.86,
-                            "weatherCode": 1001,
-                            "windSpeed": 9.84
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T15:00:00-05:00",
-                        "values": {
-                            "cloudCover": 69.63,
-                            "humidity": 65.33,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 72.73,
-                            "temperatureApparent": 72.73,
-                            "temperatureMax": 72.73,
-                            "temperatureMin": 72.73,
-                            "weatherCode": 1102,
-                            "windSpeed": 9.32
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T16:00:00-05:00",
-                        "values": {
-                            "cloudCover": 54.61,
-                            "humidity": 65.92,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 72.6,
-                            "temperatureApparent": 72.6,
-                            "temperatureMax": 72.6,
-                            "temperatureMin": 72.6,
-                            "weatherCode": 1101,
-                            "windSpeed": 8.79
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T17:00:00-05:00",
-                        "values": {
-                            "cloudCover": 48.65,
-                            "humidity": 69.67,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.42,
-                            "temperatureApparent": 71.42,
-                            "temperatureMax": 71.42,
-                            "temperatureMin": 71.42,
-                            "weatherCode": 1101,
-                            "windSpeed": 7.16
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T18:00:00-05:00",
-                        "values": {
-                            "cloudCover": 42.69,
-                            "humidity": 73.42,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 70.24,
-                            "temperatureApparent": 70.24,
-                            "temperatureMax": 70.24,
-                            "temperatureMin": 70.24,
-                            "weatherCode": 1101,
-                            "windSpeed": 5.52
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T19:00:00-05:00",
-                        "values": {
-                            "cloudCover": 36.74,
-                            "humidity": 77.17,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 69.06,
-                            "temperatureApparent": 69.06,
-                            "temperatureMax": 69.06,
-                            "temperatureMin": 69.06,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.88
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T20:00:00-05:00",
-                        "values": {
-                            "cloudCover": 37.5,
-                            "humidity": 79.02,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.37,
-                            "temperatureApparent": 68.37,
-                            "temperatureMax": 68.37,
-                            "temperatureMin": 68.37,
-                            "weatherCode": 1101,
-                            "windSpeed": 4.16
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T21:00:00-05:00",
-                        "values": {
-                            "cloudCover": 38.26,
-                            "humidity": 80.88,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.68,
-                            "temperatureApparent": 67.68,
-                            "temperatureMax": 67.68,
-                            "temperatureMin": 67.68,
-                            "weatherCode": 1101,
-                            "windSpeed": 4.44
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T22:00:00-05:00",
-                        "values": {
-                            "cloudCover": 39.02,
-                            "humidity": 82.73,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.99,
-                            "temperatureApparent": 66.99,
-                            "temperatureMax": 66.99,
-                            "temperatureMin": 66.99,
-                            "weatherCode": 1101,
-                            "windSpeed": 4.72
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-06T23:00:00-05:00",
-                        "values": {
-                            "cloudCover": 34.01,
-                            "humidity": 84.77,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.4,
-                            "temperatureApparent": 66.4,
-                            "temperatureMax": 66.4,
-                            "temperatureMin": 66.4,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.81
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T00:00:00-05:00",
-                        "values": {
-                            "cloudCover": 29,
-                            "humidity": 86.8,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 65.81,
-                            "temperatureApparent": 65.81,
-                            "temperatureMax": 65.81,
-                            "temperatureMin": 65.81,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.9
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T01:00:00-05:00",
-                        "values": {
-                            "cloudCover": 23.99,
-                            "humidity": 88.84,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 65.23,
-                            "temperatureApparent": 65.23,
-                            "temperatureMax": 65.23,
-                            "temperatureMin": 65.23,
-                            "weatherCode": 1100,
-                            "windSpeed": 5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T02:00:00-05:00",
-                        "values": {
-                            "cloudCover": 19.08,
-                            "humidity": 90.06,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 64.86,
-                            "temperatureApparent": 64.86,
-                            "temperatureMax": 64.86,
-                            "temperatureMin": 64.86,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.61
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T03:00:00-05:00",
-                        "values": {
-                            "cloudCover": 14.17,
-                            "humidity": 91.29,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 64.49,
-                            "temperatureApparent": 64.49,
-                            "temperatureMax": 64.49,
-                            "temperatureMin": 64.49,
-                            "weatherCode": 1100,
-                            "windSpeed": 4.23
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T04:00:00-05:00",
-                        "values": {
-                            "cloudCover": 9.27,
-                            "humidity": 92.51,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 64.12,
-                            "temperatureApparent": 64.12,
-                            "temperatureMax": 64.12,
-                            "temperatureMin": 64.12,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.84
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 8.9,
-                            "humidity": 92.63,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 63.97,
-                            "temperatureApparent": 63.97,
-                            "temperatureMax": 63.97,
-                            "temperatureMin": 63.97,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.73
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T06:00:00-05:00",
-                        "values": {
-                            "cloudCover": 8.53,
-                            "humidity": 92.75,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 63.82,
-                            "temperatureApparent": 63.82,
-                            "temperatureMax": 63.82,
-                            "temperatureMin": 63.82,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.62
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T07:00:00-05:00",
-                        "values": {
-                            "cloudCover": 8.16,
-                            "humidity": 92.86,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 63.67,
-                            "temperatureApparent": 63.67,
-                            "temperatureMax": 63.67,
-                            "temperatureMin": 63.67,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.51
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T08:00:00-05:00",
-                        "values": {
-                            "cloudCover": 8.81,
-                            "humidity": 87.24,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 65.41,
-                            "temperatureApparent": 65.41,
-                            "temperatureMax": 65.41,
-                            "temperatureMin": 65.41,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T09:00:00-05:00",
-                        "values": {
-                            "cloudCover": 9.46,
-                            "humidity": 81.62,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.16,
-                            "temperatureApparent": 67.16,
-                            "temperatureMax": 67.16,
-                            "temperatureMin": 67.16,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T10:00:00-05:00",
-                        "values": {
-                            "cloudCover": 10.11,
-                            "humidity": 76.01,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.9,
-                            "temperatureApparent": 68.9,
-                            "temperatureMax": 68.9,
-                            "temperatureMin": 68.9,
-                            "weatherCode": 1000,
-                            "windSpeed": 3.49
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T11:00:00-05:00",
-                        "values": {
-                            "cloudCover": 13.18,
-                            "humidity": 71.89,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 70.3,
-                            "temperatureApparent": 70.3,
-                            "temperatureMax": 70.3,
-                            "temperatureMin": 70.3,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.66
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T12:00:00-05:00",
-                        "values": {
-                            "cloudCover": 16.26,
-                            "humidity": 67.78,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.7,
-                            "temperatureApparent": 71.7,
-                            "temperatureMax": 71.7,
-                            "temperatureMin": 71.7,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.82
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T13:00:00-05:00",
-                        "values": {
-                            "cloudCover": 19.33,
-                            "humidity": 63.67,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 73.1,
-                            "temperatureApparent": 73.1,
-                            "temperatureMax": 73.1,
-                            "temperatureMin": 73.1,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.99
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T14:00:00-05:00",
-                        "values": {
-                            "cloudCover": 33.48,
-                            "humidity": 63.23,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 73.18,
-                            "temperatureApparent": 73.18,
-                            "temperatureMax": 73.18,
-                            "temperatureMin": 73.18,
-                            "weatherCode": 1100,
-                            "windSpeed": 3.81
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T15:00:00-05:00",
-                        "values": {
-                            "cloudCover": 47.63,
-                            "humidity": 62.79,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 73.26,
-                            "temperatureApparent": 73.26,
-                            "temperatureMax": 73.26,
-                            "temperatureMin": 73.26,
-                            "weatherCode": 1101,
-                            "windSpeed": 3.64
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T16:00:00-05:00",
-                        "values": {
-                            "cloudCover": 61.78,
-                            "humidity": 62.34,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 73.34,
-                            "temperatureApparent": 73.34,
-                            "temperatureMax": 73.34,
-                            "temperatureMin": 73.34,
-                            "weatherCode": 1101,
-                            "windSpeed": 3.46
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T17:00:00-05:00",
-                        "values": {
-                            "cloudCover": 57.48,
-                            "humidity": 66.7,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 71.72,
-                            "temperatureApparent": 71.72,
-                            "temperatureMax": 71.72,
-                            "temperatureMin": 71.72,
-                            "weatherCode": 1101,
-                            "windSpeed": 3.43
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T18:00:00-05:00",
-                        "values": {
-                            "cloudCover": 53.17,
-                            "humidity": 71.05,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 70.09,
-                            "temperatureApparent": 70.09,
-                            "temperatureMax": 70.09,
-                            "temperatureMin": 70.09,
-                            "weatherCode": 1101,
-                            "windSpeed": 3.41
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T19:00:00-05:00",
-                        "values": {
-                            "cloudCover": 48.87,
-                            "humidity": 75.41,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 68.47,
-                            "temperatureApparent": 68.47,
-                            "temperatureMax": 68.47,
-                            "temperatureMin": 68.47,
-                            "weatherCode": 1101,
-                            "windSpeed": 3.38
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T20:00:00-05:00",
-                        "values": {
-                            "cloudCover": 39.33,
-                            "humidity": 72.22,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 5,
-                            "temperature": 68.25,
-                            "temperatureApparent": 68.25,
-                            "temperatureMax": 68.25,
-                            "temperatureMin": 68.25,
-                            "weatherCode": 1101,
-                            "windSpeed": 4.3
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T21:00:00-05:00",
-                        "values": {
-                            "cloudCover": 29.79,
-                            "humidity": 69.03,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 68.03,
-                            "temperatureApparent": 68.03,
-                            "temperatureMax": 68.03,
-                            "temperatureMin": 68.03,
-                            "weatherCode": 1100,
-                            "windSpeed": 5.23
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T22:00:00-05:00",
-                        "values": {
-                            "cloudCover": 20.26,
-                            "humidity": 65.84,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 67.81,
-                            "temperatureApparent": 67.81,
-                            "temperatureMax": 67.81,
-                            "temperatureMin": 67.81,
-                            "weatherCode": 1100,
-                            "windSpeed": 6.15
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-07T23:00:00-05:00",
-                        "values": {
-                            "cloudCover": 16.9,
-                            "humidity": 59.28,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 66.65,
-                            "temperatureApparent": 66.65,
-                            "temperatureMax": 66.65,
-                            "temperatureMin": 66.65,
-                            "weatherCode": 1100,
-                            "windSpeed": 7.83
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T00:00:00-05:00",
-                        "values": {
-                            "cloudCover": 13.54,
-                            "humidity": 52.73,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.49,
-                            "temperatureApparent": 65.49,
-                            "temperatureMax": 65.49,
-                            "temperatureMin": 65.49,
-                            "weatherCode": 1100,
-                            "windSpeed": 9.51
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T01:00:00-05:00",
-                        "values": {
-                            "cloudCover": 10.18,
-                            "humidity": 46.17,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 64.33,
-                            "temperatureApparent": 64.33,
-                            "temperatureMax": 64.33,
-                            "temperatureMin": 64.33,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.19
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T02:00:00-05:00",
-                        "values": {
-                            "cloudCover": 6.78,
-                            "humidity": 46.65,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 63.03,
-                            "temperatureApparent": 63.03,
-                            "temperatureMax": 63.03,
-                            "temperatureMin": 63.03,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.34
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T03:00:00-05:00",
-                        "values": {
-                            "cloudCover": 3.39,
-                            "humidity": 47.12,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 61.74,
-                            "temperatureApparent": 61.74,
-                            "temperatureMax": 61.74,
-                            "temperatureMin": 61.74,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.5
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T04:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 47.59,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.44,
-                            "temperatureApparent": 60.44,
-                            "temperatureMax": 60.44,
-                            "temperatureMin": 60.44,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.65
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T05:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 42.54,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.37,
-                            "temperatureApparent": 59.37,
-                            "temperatureMax": 59.37,
-                            "temperatureMin": 59.37,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.46
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T06:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 37.5,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 58.3,
-                            "temperatureApparent": 58.3,
-                            "temperatureMax": 58.3,
-                            "temperatureMin": 58.3,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.28
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T07:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 32.45,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.23,
-                            "temperatureApparent": 57.23,
-                            "temperatureMax": 57.23,
-                            "temperatureMin": 57.23,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.09
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T08:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 31.08,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 57.76,
-                            "temperatureApparent": 57.76,
-                            "temperatureMax": 57.76,
-                            "temperatureMin": 57.76,
-                            "weatherCode": 1000,
-                            "windSpeed": 11.94
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T09:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 29.7,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 58.29,
-                            "temperatureApparent": 58.29,
-                            "temperatureMax": 58.29,
-                            "temperatureMin": 58.29,
-                            "weatherCode": 1000,
-                            "windSpeed": 12.79
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T10:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 28.33,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 58.83,
-                            "temperatureApparent": 58.83,
-                            "temperatureMax": 58.83,
-                            "temperatureMin": 58.83,
-                            "weatherCode": 1000,
-                            "windSpeed": 13.64
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T11:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 27.61,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 59.44,
-                            "temperatureApparent": 59.44,
-                            "temperatureMax": 59.44,
-                            "temperatureMin": 59.44,
-                            "weatherCode": 1000,
-                            "windSpeed": 14.81
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T12:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 26.9,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.04,
-                            "temperatureApparent": 60.04,
-                            "temperatureMax": 60.04,
-                            "temperatureMin": 60.04,
-                            "weatherCode": 1000,
-                            "windSpeed": 15.98
-                        }
-                    },
-                    {
-                        "startTime": "2022-11-08T13:00:00-05:00",
-                        "values": {
-                            "cloudCover": 0,
-                            "humidity": 26.19,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 60.65,
-                            "temperatureApparent": 60.65,
-                            "temperatureMax": 60.65,
-                            "temperatureMin": 60.65,
-                            "weatherCode": 1000,
-                            "windSpeed": 17.15
-                        }
-                    }
-                ]
-            },
-            {
-                "timestep": "current",
-                "endTime": "2022-11-01T14:15:00-04:00",
-                "startTime": "2022-11-01T14:15:00-04:00",
-                "intervals": [
-                    {
-                        "startTime": "2022-11-01T14:15:00-04:00",
-                        "values": {
-                            "cloudCover": 88,
-                            "humidity": 80,
-                            "precipitationIntensity": 0,
-                            "precipitationProbability": 0,
-                            "temperature": 65.53,
-                            "temperatureApparent": 65.53,
-                            "temperatureMax": 65.53,
-                            "temperatureMin": 65.53,
-                            "uvIndex": 1,
-                            "weatherCode": 1001,
-                            "windSpeed": 4.47
-                        }
-                    }
-                ]
-            }
-        ],
-        "warnings": [
-            {
-                "code": 246001,
-                "type": "Time Bounded Field",
-                "message": "The following field is not supported for a time range: 'uvIndex'",
-                "meta": {
-                    "field": "uvIndex",
-                    "from": "2022-11-01T12:30:00-04:00",
-                    "to": "2022-11-06T01:15:00-05:00"
-                }
-            },
-            {
-                "code": 246001,
-                "type": "Time Bounded Field",
-                "message": "The following field is not supported for a time range: 'uvIndex'",
-                "meta": {
-                    "field": "uvIndex",
-                    "from": "2022-11-01T04:30:00-04:00",
-                    "to": "2022-11-06T01:15:00-05:00"
-                }
-            },
-            {
-                "code": 246009,
-                "type": "Missing Time Range",
-                "message": "The timestep is not supported in full for the time range requested.",
-                "meta": {
-                    "from": "-6h",
-                    "to": "+6h",
-                    "timestep": "current"
-                }
-            }
-        ]
+  "forecastDays": [
+    {
+      "interval": {
+        "startTime": "2025-08-27T11:00:00Z",
+        "endTime": "2025-08-28T11:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 8,
+        "day": 27
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-08-27T11:00:00Z",
+          "endTime": "2025-08-27T23:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+          "description": {
+            "text": "Sunny",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 44,
+        "uvIndex": 7,
+        "precipitation": {
+          "probability": {
+            "percent": 5,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 306,
+            "cardinal": "NORTHWEST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 34,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 50,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-08-27T23:00:00Z",
+          "endTime": "2025-08-28T11:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 56,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 5,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 307,
+            "cardinal": "NORTHWEST"
+          },
+          "speed": {
+            "value": 14,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 29,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 50,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 24.7,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 14.8,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 24.8,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 14.8,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-08-27T10:18:27.849862494Z",
+        "sunsetTime": "2025-08-27T23:35:41.728418694Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WAXING_CRESCENT",
+        "moonriseTimes": ["2025-08-27T14:42:02.007428215Z"],
+        "moonsetTimes": ["2025-08-28T01:23:58.461861529Z"]
+      },
+      "maxHeatIndex": {
+        "degrees": 24.8,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-08-28T11:00:00Z",
+        "endTime": "2025-08-29T11:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 8,
+        "day": 28
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-08-28T11:00:00Z",
+          "endTime": "2025-08-28T23:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy",
+          "description": {
+            "text": "Mostly cloudy",
+            "languageCode": "en"
+          },
+          "type": "MOSTLY_CLOUDY"
+        },
+        "relativeHumidity": 39,
+        "uvIndex": 3,
+        "precipitation": {
+          "probability": {
+            "percent": 10,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 235,
+            "cardinal": "SOUTHWEST"
+          },
+          "speed": {
+            "value": 14,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 35,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 95,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-08-28T23:00:00Z",
+          "endTime": "2025-08-29T11:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_cloudy_night",
+          "description": {
+            "text": "Mostly cloudy",
+            "languageCode": "en"
+          },
+          "type": "MOSTLY_CLOUDY"
+        },
+        "relativeHumidity": 51,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 20,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0.0991,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 20,
+        "wind": {
+          "direction": {
+            "degrees": 214,
+            "cardinal": "SOUTH_SOUTHWEST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 40,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 90,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 26.1,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 15.5,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 26.1,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 15.5,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-08-28T10:19:26.633803321Z",
+        "sunsetTime": "2025-08-28T23:34:07.471248540Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WAXING_CRESCENT",
+        "moonriseTimes": ["2025-08-28T15:44:33.398038437Z"],
+        "moonsetTimes": ["2025-08-29T01:47:52.848243205Z"]
+      },
+      "maxHeatIndex": {
+        "degrees": 26.1,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-08-29T11:00:00Z",
+        "endTime": "2025-08-30T11:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 8,
+        "day": 29
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-08-29T11:00:00Z",
+          "endTime": "2025-08-29T23:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/mostly_sunny",
+          "description": {
+            "text": "Mostly sunny",
+            "languageCode": "en"
+          },
+          "type": "MOSTLY_CLEAR"
+        },
+        "relativeHumidity": 44,
+        "uvIndex": 7,
+        "precipitation": {
+          "probability": {
+            "percent": 20,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 20,
+        "wind": {
+          "direction": {
+            "degrees": 260,
+            "cardinal": "WEST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 34,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 85,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-08-29T23:00:00Z",
+          "endTime": "2025-08-30T11:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 51,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 317,
+            "cardinal": "NORTHWEST"
+          },
+          "speed": {
+            "value": 16,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 32,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 25,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 26.2,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 14.7,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 26.2,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 14,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-08-29T10:20:25.369659448Z",
+        "sunsetTime": "2025-08-29T23:32:32.573155729Z"
+      },
+      "moonEvents": {
+        "moonPhase": "WAXING_CRESCENT",
+        "moonriseTimes": ["2025-08-29T16:47:40.961277819Z"],
+        "moonsetTimes": ["2025-08-30T02:16:03.960165994Z"]
+      },
+      "maxHeatIndex": {
+        "degrees": 26.2,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-08-30T11:00:00Z",
+        "endTime": "2025-08-31T11:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 8,
+        "day": 30
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-08-30T11:00:00Z",
+          "endTime": "2025-08-30T23:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/sunny",
+          "description": {
+            "text": "Sunny",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 38,
+        "uvIndex": 7,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 317,
+            "cardinal": "NORTHWEST"
+          },
+          "speed": {
+            "value": 11,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 27,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 15,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-08-30T23:00:00Z",
+          "endTime": "2025-08-31T11:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 49,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 329,
+            "cardinal": "NORTH_NORTHWEST"
+          },
+          "speed": {
+            "value": 11,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 26,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 10,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 23.6,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 14.8,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 24,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 14.8,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-08-30T10:21:24.058409778Z",
+        "sunsetTime": "2025-08-30T23:30:57.064445192Z"
+      },
+      "moonEvents": {
+        "moonPhase": "FIRST_QUARTER",
+        "moonriseTimes": ["2025-08-30T17:50:46.079101840Z"],
+        "moonsetTimes": ["2025-08-31T02:50:22.922478948Z"]
+      },
+      "maxHeatIndex": {
+        "degrees": 24,
+        "unit": "CELSIUS"
+      }
+    },
+    {
+      "interval": {
+        "startTime": "2025-08-31T11:00:00Z",
+        "endTime": "2025-09-01T11:00:00Z"
+      },
+      "displayDate": {
+        "year": 2025,
+        "month": 8,
+        "day": 31
+      },
+      "daytimeForecast": {
+        "interval": {
+          "startTime": "2025-08-31T11:00:00Z",
+          "endTime": "2025-08-31T23:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/partly_cloudy",
+          "description": {
+            "text": "Partly sunny",
+            "languageCode": "en"
+          },
+          "type": "PARTLY_CLOUDY"
+        },
+        "relativeHumidity": 39,
+        "uvIndex": 7,
+        "precipitation": {
+          "probability": {
+            "percent": 5,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 46,
+            "cardinal": "NORTHEAST"
+          },
+          "speed": {
+            "value": 6,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 13,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 51,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "nighttimeForecast": {
+        "interval": {
+          "startTime": "2025-08-31T23:00:00Z",
+          "endTime": "2025-09-01T11:00:00Z"
+        },
+        "weatherCondition": {
+          "iconBaseUri": "https://maps.gstatic.com/weather/v1/clear",
+          "description": {
+            "text": "Clear",
+            "languageCode": "en"
+          },
+          "type": "CLEAR"
+        },
+        "relativeHumidity": 56,
+        "uvIndex": 0,
+        "precipitation": {
+          "probability": {
+            "percent": 0,
+            "type": "RAIN"
+          },
+          "snowQpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          },
+          "qpf": {
+            "quantity": 0,
+            "unit": "MILLIMETERS"
+          }
+        },
+        "thunderstormProbability": 0,
+        "wind": {
+          "direction": {
+            "degrees": 235,
+            "cardinal": "SOUTHWEST"
+          },
+          "speed": {
+            "value": 10,
+            "unit": "KILOMETERS_PER_HOUR"
+          },
+          "gust": {
+            "value": 23,
+            "unit": "KILOMETERS_PER_HOUR"
+          }
+        },
+        "cloudCover": 31,
+        "iceThickness": {
+          "thickness": 0,
+          "unit": "MILLIMETERS"
+        }
+      },
+      "maxTemperature": {
+        "degrees": 25.6,
+        "unit": "CELSIUS"
+      },
+      "minTemperature": {
+        "degrees": 15.4,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMaxTemperature": {
+        "degrees": 25.6,
+        "unit": "CELSIUS"
+      },
+      "feelsLikeMinTemperature": {
+        "degrees": 15.4,
+        "unit": "CELSIUS"
+      },
+      "sunEvents": {
+        "sunriseTime": "2025-08-31T10:22:22.701765612Z",
+        "sunsetTime": "2025-08-31T23:29:20.975278847Z"
+      },
+      "moonEvents": {
+        "moonPhase": "FIRST_QUARTER",
+        "moonriseTimes": ["2025-08-31T18:52:09.270965257Z"],
+        "moonsetTimes": ["2025-09-01T03:32:36.850500163Z"]
+      },
+      "maxHeatIndex": {
+        "degrees": 25.6,
+        "unit": "CELSIUS"
+      }
     }
+  ],
+  "timeZone": {
+    "id": "America/New_York"
+  },
+  "nextPageToken": "ChQKEgkFNBE2PFtEQBEt6pPcYYBSwBAFGAUiDAjw_73FBhCO3Mn4AioQQW1lcmljYS9OZXdfWW9yaw=="
 }
