@@ -1,9 +1,25 @@
 import moment from "moment";
-import WeatherIcon from "./WeatherIcon";
+import { WeatherIcon } from "./WeatherIcon";
 
-export default function Forecast(props) {
-  const { data, timeFrame, time, day, date, temp, tempRange } = props;
+interface ForecastProps {
+  data: any;
+  timeFrame: any;
+  time: any;
+  day: any;
+  date: any;
+  temp: any;
+  tempRange: any;
+}
 
+export default function Forecast({
+  data,
+  timeFrame,
+  time,
+  day,
+  date,
+  temp,
+  tempRange,
+}: ForecastProps) {
   return (
     <>
       {Object.keys(data).length !== 0 && (
@@ -12,7 +28,7 @@ export default function Forecast(props) {
             {timeFrame} FORECAST
           </h1>
           <div className="flex space-x-10 overflow-auto 2xs:w-60 xs:w-96 my-2 transition-all">
-            {data.map((item, index) => (
+            {data.map((item: any, index: number) => (
               <div
                 key={index}
                 className="flex flex-col items-center justify-center pb-2"
