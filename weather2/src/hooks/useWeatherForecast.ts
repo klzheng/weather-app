@@ -11,9 +11,9 @@ interface WeatherForecastParams {
   days: number;
 }
 
-export const useWeatherForecast = async (params: WeatherForecastParams) => {
+export const useWeatherForecast = (params: WeatherForecastParams) => {
   return useQuery({
     queryKey: ["weather"],
-    queryFn: async () => weatherApiClient(`forecast/days:lookup`, params),
+    queryFn: () => weatherApiClient(`forecast/days:lookup`, params),
   });
 };
